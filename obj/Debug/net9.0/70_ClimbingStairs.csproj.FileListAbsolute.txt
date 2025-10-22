@@ -1,0 +1,15 @@
+C:\Users\louis\Documents\Code\LeetCode\Easy\70_ClimbingStairs\70_ClimbingStairs\bin\Debug\net9.0\70_ClimbingStairs.exe
+C:\Users\louis\Documents\Code\LeetCode\Easy\70_ClimbingStairs\70_ClimbingStairs\bin\Debug\net9.0\70_ClimbingStairs.deps.json
+C:\Users\louis\Documents\Code\LeetCode\Easy\70_ClimbingStairs\70_ClimbingStairs\bin\Debug\net9.0\70_ClimbingStairs.runtimeconfig.json
+C:\Users\louis\Documents\Code\LeetCode\Easy\70_ClimbingStairs\70_ClimbingStairs\bin\Debug\net9.0\70_ClimbingStairs.dll
+C:\Users\louis\Documents\Code\LeetCode\Easy\70_ClimbingStairs\70_ClimbingStairs\bin\Debug\net9.0\70_ClimbingStairs.pdb
+C:\Users\louis\Documents\Code\LeetCode\Easy\70_ClimbingStairs\70_ClimbingStairs\obj\Debug\net9.0\70_ClimbingStairs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\louis\Documents\Code\LeetCode\Easy\70_ClimbingStairs\70_ClimbingStairs\obj\Debug\net9.0\70_ClimbingStairs.AssemblyInfoInputs.cache
+C:\Users\louis\Documents\Code\LeetCode\Easy\70_ClimbingStairs\70_ClimbingStairs\obj\Debug\net9.0\70_ClimbingStairs.AssemblyInfo.cs
+C:\Users\louis\Documents\Code\LeetCode\Easy\70_ClimbingStairs\70_ClimbingStairs\obj\Debug\net9.0\70_ClimbingStairs.csproj.CoreCompileInputs.cache
+C:\Users\louis\Documents\Code\LeetCode\Easy\70_ClimbingStairs\70_ClimbingStairs\obj\Debug\net9.0\70_ClimbingStairs.sourcelink.json
+C:\Users\louis\Documents\Code\LeetCode\Easy\70_ClimbingStairs\70_ClimbingStairs\obj\Debug\net9.0\70_ClimbingStairs.dll
+C:\Users\louis\Documents\Code\LeetCode\Easy\70_ClimbingStairs\70_ClimbingStairs\obj\Debug\net9.0\refint\70_ClimbingStairs.dll
+C:\Users\louis\Documents\Code\LeetCode\Easy\70_ClimbingStairs\70_ClimbingStairs\obj\Debug\net9.0\70_ClimbingStairs.pdb
+C:\Users\louis\Documents\Code\LeetCode\Easy\70_ClimbingStairs\70_ClimbingStairs\obj\Debug\net9.0\70_ClimbingStairs.genruntimeconfig.cache
+C:\Users\louis\Documents\Code\LeetCode\Easy\70_ClimbingStairs\70_ClimbingStairs\obj\Debug\net9.0\ref\70_ClimbingStairs.dll
