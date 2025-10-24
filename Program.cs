@@ -2,21 +2,32 @@
 {
     public int ClimbStairs(int n)
     {
-        int tempDistinctWays = 0;
-        int distinctWays = 2;
-        int twoBefore = 1;
-      
-        if (n == 1) return 1;
-        if (n == 2) return 2;
+        // // FOR LOOP SOLUTION
+        // int tempDistinctWays = 0;
+        // int distinctWays = 2;
+        // int twoBefore = 1;
 
-        for (int i = 3; i <= n; i++)
-        {
-            tempDistinctWays = distinctWays + twoBefore;
-            twoBefore = distinctWays;
-            distinctWays = tempDistinctWays;
-        }
+        // if (n == 1) return 1;
+        // if (n == 2) return 2;
+
+        // for (int i = 3; i <= n; i++)
+        // {
+        //     tempDistinctWays = distinctWays + twoBefore;
+        //     twoBefore = distinctWays;
+        //     distinctWays = tempDistinctWays;
+        // }
+
+        // return distinctWays;
+
+        // RECURSIVE SOLUTION
+        int distinctWays = 0;
+
+        if (n <= 2) return n;
+        distinctWays = ClimbStairs(n - 1) + ClimbStairs(n - 2);
+
 
         return distinctWays;
+
     }
 
     static void Main(string[] args)
