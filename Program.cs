@@ -2,21 +2,19 @@
 {
     public int ClimbStairs(int n)
     {
+        int tempDistinctWays = 0;
+        int distinctWays = 2;
+        int twoBefore = 1;
+      
         if (n == 1) return 1;
         if (n == 2) return 2;
 
-        int distinctWays = 0;
-        int divisionRemainder = n / 2;
-        int addingToTheLoop = (n % 2 == 0) ? 0 : 1;
-
-        for (int i = 1; i < divisionRemainder + addingToTheLoop; i++)
+        for (int i = 3; i <= n; i++)
         {
-            distinctWays += n - i;
+            tempDistinctWays = distinctWays + twoBefore;
+            twoBefore = distinctWays;
+            distinctWays = tempDistinctWays;
         }
-
-        distinctWays += (n % 2 == 0) ? 2 : 1;
-        // Add 1 for the only ones solution
-        //distinctWays++;
 
         return distinctWays;
     }
@@ -40,6 +38,10 @@
         int input5 = 5;
         Console.WriteLine("Input = 5 Answer(8) -> " + s.ClimbStairs(input5));
 
+
+        int input6 = 6;
+        Console.WriteLine("Input = 6 Answer(13) -> " + s.ClimbStairs(input6));
+
     }
 }
 
@@ -54,14 +56,32 @@
 
 5 STAIRS
 1+1+1+1+1
+
 2+2+1
 2+1+2
 1+2+2
+
 1+1+1+2
 1+1+2+1
 1+2+1+1
 2+1+1+1
 
+6 STAIRS
+1+1+1+1+1+1
+2+2+2
+
+1+1+1+1+2
+1+1+1+2+1
+1+1+2+1+1
+1+2+1+1+1
+2+1+1+1+1
+
+1+1+2+2
+1+2+1+2
+2+1+1+2
+1+2+2+1  -> j'avais oublié
+2+1+2+1  -> j'avais oublié
+2+2+1+1
 
 STEPS TO SOLVE THE PROBLEM
 1- Count the number with 1 
